@@ -1,0 +1,28 @@
+A man in my neighborhood has three daughters. One day when I asked their ages he said, “The product of their ages is 36.”
+
+When I still couldn’t find their ages he said, “Ok. I’ll give you another clue: the sum of their ages is same as the number of my house.”
+
+I knew the number but still couldn’t calculate their ages. So the man gave me a last clue, “My eldest daughter lives upstairs.”
+
+Finally I was able to figure out their ages. How old are they?
+
+Hint - There are only so many ways that three numbers can have a product of 36.
+
+
+Answer - 2,2,9
+
+Solution: 
+We know that the product of their ages is 36. 
+So let us come with numbers, find the LCM of 36. So we get, 1,2,2,3,3
+Now we try to arrange them in a format of 3 numbers togther, because there are 3 daughters. And also write their sums on the side. 
+1 + 6 + 6 = 13
+1 + 12 + 3 = 16
+1 + 2 + 18 = 21
+1 + 4 + 9 = 14
+2 + 3 + 6 = 11
+2 + 2 + 9 = 13
+4 + 3 + 3 = 10
+
+Now we know that person knows the house number, so all the house numbers are uniques except for 13, where we have two possibilities i.e. 1,6,6 and 2,2,9. 
+We know that the eldest daughter lives upstairs, that means she must be relatively elder and out of the two given possibilities, a 1 year old child cannot live alone. 
+So it has to be 2,2,9. 
